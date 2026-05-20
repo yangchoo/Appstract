@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Version fields must match app/build.gradle.kts defaultConfig (used by Atom Launcher). -->
 <themeInfo>
 
     <packageName>dev.appstract.iconpack</packageName>
-    <versionName>5.0.0</versionName>
-    <versionCode>1</versionCode>
+    <versionName>5.0.1</versionName>
+    <versionCode>2</versionCode>
     <themeName>Appstract Icon Pack</themeName>
 
     <themePointColor>#94E4C8</themePointColor>

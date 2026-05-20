@@ -28,6 +28,14 @@ Icons are copied from `icons/appstract-dark/` into `app/src/main/res/drawable-no
 
 This fork is intended for F-Droid submission. Metadata lives in `fastlane/metadata/android/en-US/`.
 
+## Installing
+
+**GitHub Releases** ship debug-signed APKs so they can be sideloaded for testing. **F-Droid** builds from source and signs with its own key.
+
+If you install from GitHub Releases and later switch to F-Droid (or the other way around), Android treats them as different apps because the signatures differ — **uninstall first, then install from the new source**. Icon pack settings do not carry over across reinstall.
+
+Once the app is on F-Droid, prefer installing from there for updates.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for icon design guidelines and contribution instructions.

@@ -1,0 +1,1 @@
+Fix unsigned release APK so sideload installs work.

@@ -10,8 +10,9 @@ android {
         applicationId = "dev.appstract.iconpack"
         minSdk = 21
         targetSdk = 36
-        versionCode = 1
-        versionName = "5.0.0"
+        versionCode = 2
+        versionName = "5.0.1"
+        // Keep app/src/main/res/xml/themeinfo.xml in sync (Atom Launcher metadata).
         multiDexEnabled = true
     }
 
@@ -19,6 +20,9 @@ android {
         release {
             isDebuggable = false
             isMinifyEnabled = true
+            // Sign with debug key so GitHub release APKs are sideloadable.
+            // F-Droid builds from source and signs with its own key.
+            signingConfig = signingConfigs.getByName("debug")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
