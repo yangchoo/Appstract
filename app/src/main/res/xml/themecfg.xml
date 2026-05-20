@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <version>1</version>
+
+    <pkgName>dev.appstract.iconpack</pkgName>
+    <themeName>Appstract Icon Pack</themeName>
+    <themeInfo>Radical abstractions of your favorite icons</themeInfo>
+    <preview
+        img1="preview1"
+        img2="preview2" />
+
+</theme>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themeInfo>
+
+    <packageName>dev.appstract.iconpack</packageName>
+    <versionName>5.0.0</versionName>
+    <versionCode>1</versionCode>
+    <themeName>Appstract Icon Pack</themeName>
+
+    <themePointColor>#94E4C8</themePointColor>
+    <themePreview img1="preview1" />
+    <preview img1="preview1" />
+
+</themeInfo>

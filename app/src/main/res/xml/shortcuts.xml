@@ -1,0 +1,52 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_apply"
+        android:shortcutId="nav_apply"
+        android:shortcutShortLabel="@string/navigation_view_apply">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="dev.appstract.iconpack.MainActivity"
+            android:targetPackage="dev.appstract.iconpack">
+            <extra
+                android:name="position"
+                android:value="1" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_request"
+        android:shortcutId="nav_request"
+        android:shortcutShortLabel="@string/navigation_view_request">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="dev.appstract.iconpack.MainActivity"
+            android:targetPackage="dev.appstract.iconpack">
+            <extra
+                android:name="position"
+                android:value="3" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_wallpapers"
+        android:shortcutId="nav_wallpapers"
+        android:shortcutShortLabel="@string/navigation_view_wallpapers">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="dev.appstract.iconpack.MainActivity"
+            android:targetPackage="dev.appstract.iconpack">
+            <extra
+                android:name="position"
+                android:value="4" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

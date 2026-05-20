@@ -29,6 +29,12 @@ local.properties
 !/svgs
 !/icons/appstract-dark/*.png
 !/icons/appstract-light/*.png
+!app/src/main/res/mipmap-*/ic_launcher*.png
+!fastlane/**/*.png
+
+# Build-generated assets (copyXMLs task)
+app/src/main/assets/appfilter.xml
+app/src/main/assets/drawable.xml
 
 # External tool builders
 .externalToolBuilders/

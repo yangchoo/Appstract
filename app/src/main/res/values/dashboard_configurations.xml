@@ -16,10 +16,10 @@
         CONFIG: MUZEI
     -->
     <!-- Muzei art source name -->
-    <string name="muzei_art_source_name">Your Art Source Name</string>
+    <string name="muzei_art_source_name">Appstract</string>
 
     <!-- Muzei art source description -->
-    <string name="muzei_art_source_desc">Your Art Source Description</string>
+    <string name="muzei_art_source_desc">Appstract wallpapers</string>
 
     <!-- Muzei base color -->
     <color name="muzei_color">#0082B4</color>
@@ -39,7 +39,7 @@
         If you want to use a solid color, you can put the hex color code here
         ex: <string name="navigation_view_header">#000000</string>
         -->
-    <string name="home_image">https://raw.githubusercontent.com/mirrorkeydev/wallpaper/master/card.png</string>
+    <string name="home_image">https://raw.githubusercontent.com/yangchoo/Appstract/master/bothimage.png</string>
 
     <!-- Home image style
         Available choices:
@@ -66,12 +66,12 @@
     <!-- Link to your app's Rate and Review page.
         Leave this empty to disable the "Rate and Review" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="rate_and_review_link">https://play.google.com/store/apps/details?id={{packageName}}</string>
+    <string name="rate_and_review_link"></string>
 
     <!-- Link to your app's main page. It will be used when your user shares your app using "Share" button.
         Leave this empty to disable the "Share" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="share_link">https://play.google.com/store/apps/details?id={{packageName}}</string>
+    <string name="share_link">https://github.com/yangchoo/Appstract</string>
 
     <!-- Enable "Check for update" button.
         It needs the option "config_json" to be configured in order to work -->
@@ -80,7 +80,7 @@
     <!-- More apps at Google Play Store
         Link to Google Play Store developer page.
         If you don't want to show this, just leave this empty -->
-    <string name="google_play_dev">https://play.google.com/store/apps/dev?id=Melon+Productions</string>
+    <string name="google_play_dev"></string>
 
     <!-- Enables the new flat and outline styled cards everywhere -->
     <bool name="use_flat_card">true</bool>
@@ -251,7 +251,7 @@
         If you want to use an image from url, just put the url here
         If you want to use an image stored in the project ("drawable" folder)
         just put the image's name here without the extension (ex: about_profile_image.png -> about_profile_image) -->
-    <string name="about_profile_image">https://raw.githubusercontent.com/mirrorkeydev/wallpaper/master/Capture3.png</string>
+    <string name="about_profile_image">https://raw.githubusercontent.com/yangchoo/Appstract/master/bothimage.png</string>
 
     <!-- The BIG text which is shown above the description and below the about profile image -->
     <string name="about_title">Appstract \nIcon Pack</string>
@@ -261,10 +261,9 @@
         ex: `<![CDATA[ There are - <b>Bold</b> <i>Italic</i> <u>Underline</u> <a href="url">Link</a> ]]>` -->
     <string name="about_desc">
         <![CDATA[
-        Hey there! My name is Melanie Gutzmann, and I designed and created all of the icons
-        in Appstract. Little bit about me: I\'m a full-time student studying Computer Science in
-        the Pacific Northwest, I love sourdough bread, and I have a cute cat named
-        <a href="https://imgur.com/a/HIZw52E">Apollo!</a>.
+        Appstract is an abstract Android icon pack originally designed and created by
+        <b>Melanie Gutzmann</b> (mirrorkeydev). This community-maintained fork brings the pack
+        back for F-Droid with nearly 590 hand-designed icons.
         ]]>
     </string>
 
@@ -278,7 +277,7 @@
         ex: <string-array name="about_social_links"></string-array>
         -->
     <string-array name="about_social_links">
-        <item>appstracticonpack@gmail.com</item>
+        <item>https://github.com/yangchoo/Appstract</item>
         <item>https://github.com/mirrorkeydev</item>
     </string-array>
 
@@ -303,7 +302,7 @@
     -->
     <!-- Enable/disable donation
         Show support development option in the home page. -->
-    <bool name="enable_donation">true</bool>
+    <bool name="enable_donation">false</bool>
 
     <!-- Take a look inside License.java for donation product -->
 

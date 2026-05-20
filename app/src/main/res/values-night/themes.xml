@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CandyBar.Theme.App.DayNight" parent="CandyBar.Theme.Base">
+        <item name="cb_colorPrimary">#585858</item>
+        <item name="cb_colorPrimaryDark">#161616</item>
+        <item name="cb_colorAccent">#77D1C1</item>
+
+        <item name="cb_navigationBar">#333333</item>
+        <item name="cb_splashColor">#161616</item>
+
+        <item name="cb_navigationViewHeaderBackground">#00000000</item>
+        <item name="cb_navigationViewTitle">#FFFFFF</item>
+        <item name="cb_navigationViewTitleBack">#33000000</item>
+
+        <item name="cb_navigationViewText">#DDFFFFFF</item>
+        <item name="cb_navigationViewTextSelected">#77D1C1</item>
+        <item name="cb_navigationViewSelectedBackground">#2A77D1C1</item>
+        <item name="cb_navigationViewRippleColor">#25000000</item>
+
+        <item name="cb_swipeRefresh">#23BEA5</item>
+
+        <item name="cb_tapIntroTitle">?cb_mainBackground</item>
+        <item name="cb_tapIntroDescription">?cb_mainBackground</item>
+        <item name="cb_tapIntroCircleInner">?cb_primaryText</item>
+        <item name="cb_tapIntroCircleOuter">?cb_secondaryText</item>
+
+        <item name="cb_toolbarIcon">#FFFFFFFF</item>
+
+        <item name="cb_tabIndicator">#BDBDBD</item>
+        <item name="cb_tabText">#616161</item>
+        <item name="cb_tabTextSelected">#BDBDBD</item>
+
+        <item name="cb_cardBackground">#2C2C2C</item>
+        <item name="cb_cardStroke">#11000000</item>
+
+        <item name="cb_rippleColor">#77D1C1</item>
+        <item name="cb_rippleAccent">#77D1C1</item>
+
+        <item name="cb_mainBackground">#000000</item>
+        <item name="cb_primaryText">#EEFFFFFF</item>
+        <item name="cb_secondaryText">#99FFFFFF</item>
+
+        <item name="cb_dividerList">#22FFFFFF</item>
+
+        <item name="cb_wallpaperStatusBar">#66000000</item>
+        <item name="cb_wallpaperToolbar">#66000000</item>
+    </style>
+</resources>

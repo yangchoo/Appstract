@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Leave empty if you don't want to show changelog date -->
-    <string name="changelog_date">Dec 30, 2020</string>
+    <string name="changelog_date">May 2026</string>
 
     <!-- Changelog support html formatting
     * <b> for Bold
@@ -10,13 +10,13 @@
     * <u> for Underline
     * <a href="linkUrl">Link Text</a> for links -->
     <string-array name="changelog">
-        <item>Refreshed the look of some old icons</item>
-        <item>Improved app-icon bindings</item>
-        <item>Added 30+ icon contributions from contributors!</item>
+        <item>Community fork for F-Droid</item>
+        <item>Rebuilt on CandyBar FOSS — no proprietary dependencies</item>
+        <item>590 hand-designed abstract icons</item>
         <item>
             <![CDATA[
-            If you\'re interested in contributing too, check out
-            <a href="https://github.com/mirrorkeydev/Appstract">Appstract on Github</a>
+            Contribute on
+            <a href="https://github.com/yangchoo/Appstract">GitHub</a>
             ]]>
         </item>
     </string-array>

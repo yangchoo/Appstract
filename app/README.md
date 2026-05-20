@@ -1,2 +1,5 @@
-# Code
-The reason that I've only included some select files here is because the rest of the codebase is identical to [Sarsa Murmu's](https://github.com/sarsamurmu) maintined Candybar fork: [zixpo/candybar-sample](https://github.com/zixpo/candybar-sample). These select files are the core configurable values for Appstract.
+# Appstract configuration
+
+Icon pack dashboard settings live under `src/main/res/values/` and `src/main/res/xml/`. The Gradle build copies `appfilter.xml` and `drawable.xml` from `res/xml/` into `assets/` automatically.
+
+See [candybar-foss-sample](https://github.com/Donnnno/candybar-foss-sample) for the full Android project layout.
