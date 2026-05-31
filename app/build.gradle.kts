@@ -10,10 +10,17 @@ android {
         applicationId = "dev.appstract.iconpack"
         minSdk = 21
         targetSdk = 36
-        versionCode = 4
-        versionName = "5.0.3"
+        versionCode = 5
+        versionName = "5.0.4"
         // Keep app/src/main/res/xml/themeinfo.xml in sync (Atom Launcher metadata).
         multiDexEnabled = true
+    }
+
+    // Don't embed the AGP "Dependency metadata" blob in the APK signing block.
+    // F-Droid's scanner rejects extra signing blocks (and it isn't reproducible).
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
     }
 
     // Stable release signing key, supplied via environment variables in CI
