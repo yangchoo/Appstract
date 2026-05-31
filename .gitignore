@@ -103,3 +103,7 @@ proguard/
 /report
 
 .vscode
+
+# Release signing keystore — must never be committed (RB stable key)
+*.jks
+*.keystore

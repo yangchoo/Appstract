@@ -10,19 +10,38 @@ android {
         applicationId = "dev.appstract.iconpack"
         minSdk = 21
         targetSdk = 36
-        versionCode = 3
-        versionName = "5.0.2"
+        versionCode = 4
+        versionName = "5.0.3"
         // Keep app/src/main/res/xml/themeinfo.xml in sync (Atom Launcher metadata).
         multiDexEnabled = true
+    }
+
+    // Stable release signing key, supplied via environment variables in CI
+    // (see .github/workflows/release.yml). Required for F-Droid reproducible
+    // builds: the published APK must carry a consistent signing certificate so
+    // it can be matched against AllowedAPKSigningKeys in fdroiddata. Falls back
+    // to the debug key for local builds when the env vars are absent.
+    val releaseStoreFile: String? = System.getenv("RELEASE_STORE_FILE")
+    signingConfigs {
+        create("release") {
+            if (releaseStoreFile != null) {
+                storeFile = file(releaseStoreFile)
+                storePassword = System.getenv("RELEASE_STORE_PASSWORD")
+                keyAlias = System.getenv("RELEASE_KEY_ALIAS")
+                keyPassword = System.getenv("RELEASE_KEY_PASSWORD")
+            }
+        }
     }
 
     buildTypes {
         release {
             isDebuggable = false
             isMinifyEnabled = true
-            // Sign with debug key so GitHub release APKs are sideloadable.
-            // F-Droid builds from source and signs with its own key.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = if (releaseStoreFile != null) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
@@ -33,12 +52,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    java {
-        toolchain {
-            languageVersion.set(JavaLanguageVersion.of(17))
-        }
     }
 
     bundle {
