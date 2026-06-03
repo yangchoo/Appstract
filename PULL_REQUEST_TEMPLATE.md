@@ -7,8 +7,8 @@
     - Acceptable names: `hello.svg`, `bye_bye.svg`, `disney_plus.svg`, `numbers_123.svg`
     - Unacceptable names: `spaces everywhere.svg`, `YouTube.svg`, `$%*&^.svg`, `dots.between.svg`, `1something.svg`.
 * [ ] Have you ensured that all svgs and pngs are 192x192 px with a line width of 6px and a transparent background?
-* [ ] Did you add activity names for all of your icons to `app/xml/appfilter.xml`?
-* [ ] Did you add yourself to the `app/xml/contributors.xml` file? :)
+* [ ] Did you add activity names for all of your icons to `app/src/main/res/xml/appfilter.xml`?
+* [ ] Did you add yourself to the `app/src/main/res/xml/contributors.xml` file? :)
 
 ## Icons added
 
@@ -24,7 +24,7 @@ For each icon added, please add an entry to the pull request (this text) formatt
 
 ###### Gotchas:
 - The name inside `drawable=` must match the name of the file (For example, `orange.svg` would have `drawable="orange"`)
-- For help finding/adding activity names, please see the [Contributing Guide](https://github.com/mirrorkeydev/Appstract/blob/master/CONTRIBUTING.md#activity-names)
+- For help finding/adding activity names, please see the [Contributing Guide](https://github.com/yangchoo/Appstract/blob/master/CONTRIBUTING.md#activity-names)
 
 ### Examples (delete before opening PR)
 

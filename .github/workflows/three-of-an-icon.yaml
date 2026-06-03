@@ -21,7 +21,6 @@ jobs:
       - name: Check icon numbers
         run: |
           import os, sys
-          path = "C:\\Users\\Melanie\\Documents\\Github\\Appstract\\icons"
           os.chdir('icons')
           count_filenames = {}
           dark_filenames = os.listdir('appstract-dark')
