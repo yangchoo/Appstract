@@ -109,6 +109,45 @@ Ideas:
 
 This fork is built on [CandyBar FOSS](https://github.com/Donnnno/candybar-foss), a fully open-source CandyBar fork suitable for F-Droid. If you want to contribute to the underlying launcher/dashboard code, head over to that repo.
 
+## Releasing (maintainers)
+
+Appstract ships on F-Droid as a [reproducible build](https://f-droid.org/docs/Reproducible_Builds), which requires every release to be signed with the **same stable key**. Releasing is two halves: cut a tagged GitHub release, then point F-Droid at it.
+
+> ⚠️ **The signing key is irreplaceable.** Releases are signed in CI with `release.jks`, stored as the `RELEASE_KEYSTORE_BASE64` / `RELEASE_STORE_PASSWORD` / `RELEASE_KEY_ALIAS` / `RELEASE_KEY_PASSWORD` repository secrets. Keep an offline backup of the keystore and passwords. If the key is lost, F-Droid can no longer accept updates, because the published certificate is pinned via `AllowedAPKSigningKeys` in fdroiddata.
+
+### 1. Cut the GitHub release
+
+1. Bump `versionCode` (by 1) and `versionName` in [`app/build.gradle.kts`](app/build.gradle.kts).
+2. Add a changelog at `fastlane/metadata/android/en-US/changelogs/<versionCode>.txt` (one or two user-facing lines).
+3. Commit, then tag and push:
+   ```sh
+   git commit -am "Bump version to <versionName> (versionCode <versionCode>)"
+   git tag v<versionName>
+   git push origin HEAD --tags
+   ```
+   Pushing the `v*` tag triggers [`release.yml`](.github/workflows/release.yml), which builds the APK, signs it with the stable key, and publishes a GitHub Release with `Appstract-v<versionName>.apk`.
+4. (Optional sanity check) Confirm the published APK's certificate matches what F-Droid expects:
+   ```sh
+   keytool -printcert -jarfile Appstract-v<versionName>.apk | grep -i SHA256
+   ```
+   It should match the `AllowedAPKSigningKeys` value in fdroiddata.
+
+### 2. Point F-Droid at the new release
+
+In a checkout of [fdroiddata](https://gitlab.com/fdroid/fdroiddata), edit `metadata/dev.appstract.iconpack.yml`:
+
+1. Append a new entry under `Builds:` (keep the old ones):
+   ```yaml
+     - versionName: <versionName>
+       versionCode: <versionCode>
+       commit: <full commit hash of the v tag>
+       subdir: app
+       gradle:
+         - yes
+   ```
+2. Bump `CurrentVersion` and `CurrentVersionCode` to match.
+3. Open a merge request. `AutoUpdateMode: Version` + `UpdateCheckMode: Tags` mean F-Droid will also pick up new tags automatically, but a metadata MR is the explicit path.
+
 ## Disclaimer
 
 By contributing to this repository, you agree to have your work bound to the repository's license.
