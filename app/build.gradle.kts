@@ -10,8 +10,8 @@ android {
         applicationId = "dev.appstract.iconpack"
         minSdk = 21
         targetSdk = 36
-        versionCode = 5
-        versionName = "5.0.4"
+        versionCode = 6
+        versionName = "5.0.5"
         // Keep app/src/main/res/xml/themeinfo.xml in sync (Atom Launcher metadata).
         multiDexEnabled = true
     }
