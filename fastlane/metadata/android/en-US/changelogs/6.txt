@@ -1,0 +1,1 @@
+Dashboard and about images are now bundled in the app instead of loaded from the internet.

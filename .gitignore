@@ -30,6 +30,7 @@ local.properties
 !/icons/appstract-dark/*.png
 !/icons/appstract-light/*.png
 !app/src/main/res/mipmap-*/ic_launcher*.png
+!app/src/main/res/drawable/bothimage.png
 !fastlane/**/*.png
 
 # Build-generated assets (copyXMLs task)
