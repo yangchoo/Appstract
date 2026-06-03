@@ -1192,8 +1192,6 @@
 	<item component="ComponentInfo{jp.pxv.android/jp.pxv.android.RootActivity}" drawable="pixiv" />
 	<item component="ComponentInfo{jp.pxv.android/jp.pxv.android.activity.RoutingActivity}" drawable="pixiv" />
 	<item component="ComponentInfo{jp.pxv.pawoo/jp.pxv.pawoo.view.activity.RoutingActivity}" drawable="pawoo" />
-	<item component="ComponentInfo{gogolook.callgogolook2/gogolook.callgogolook2.PreloadingActivity}" drawable="whos_call" />
-	<item component="ComponentInfo{com.whiz.droneapp/com.whiz.droneapp.Splash}" drawable="dronemobile" />
 	<item component="ComponentInfo{com.parkeon.whoosh/com.parkeon.whoosh.activities.SplashActivity}" drawable="whoosh" />
 	<item component="ComponentInfo{com.dgsd.android.ShiftTrackerFree/com.dgsd.android.ShiftTrackerFree.StartupActivity}" drawable="shift_tracker" />
 	<item component="ComponentInfo{com.dgsd.android.ShiftTracker/com.dgsd.android.ShiftTracker.StartupActivity}" drawable="shift_tracker" />
@@ -1237,8 +1235,6 @@
 	<item component="ComponentInfo{com.crunchyroll.android.naruto/com.crunchyroll.android.naruto.activities.SplashActivity}" drawable="naruto" />
 	<item component="ComponentInfo{com.bandainamcoent.narutoblazingna/android.nt.project.NTActivity}" drawable="naruto" />
 	<item component="ComponentInfo{com.ea.gp.pvzheroes/com.ea.nimble.plugin.NimbleActivity}" drawable="pvz_heroes" />
-	<item component="ComponentInfo{com.only5c.bible/activities.IntroActivity}" drawable="scriptura" />
-	<item component="ComponentInfo{com.elixsr.somnio/com.elixsr.somnio.LoginActivity}" drawable="somnio" />
 	<item component="ComponentInfo{de.k4systems.abfallappes/de.k4systems.abfallappes.activity.APLaunchActivity}" drawable="abfall_esslingen" />
 	<item component="ComponentInfo{capitecbank.remote.prd/capitecbank.remote.prd.ui.activity.MainActivity}" drawable="capitec" />
 	<item component="ComponentInfo{com.bagatrix.mathway.android/mathway.SplashActivity}" drawable="mathway" />
@@ -1468,7 +1464,6 @@
 	<item component="ComponentInfo{com.petcube.android/com.petcube.android.screens.splash.SplashActivity}" drawable="petcube" />
 	<item component="ComponentInfo{com.pingdom.android.prime/com.pingdom.android.pingdomapp.ui.home.HomeActivity}" drawable="pingdom" />
 	<item component="ComponentInfo{com.codewithcontent.powerupfpv/com.codewithcontent.powerupfpv.intro.IntroActivity}" drawable="powerup_alt" />
-	<item component="ComponentInfo{com.codewithcontent.powerupfpv/com.codewithcontent.powerupfpv.intro.IntroActivity}" drawable="powerup" />
 	<item component="ComponentInfo{com.pr0n4droid.android/com.pr0n4droid.android.activities.MainActivity}" drawable="PrOn4Droid" />
 	<item component="ComponentInfo{com.chinandcheeks.dogtrainer/com.chinandcheeks.puppr.MainActivity}" drawable="puppr" />
 	<item component="ComponentInfo{com.logicnow.remotemanagement/com.logicnow.remotemanagement.ui.screens.auth.AuthActivity}" drawable="remote_monitoring" />
@@ -1482,10 +1477,8 @@
 	<item component="ComponentInfo{com.nascar.nascarmobile/com.nascar.nascarmobile.activity.splash.SplashActivity}" drawable="nascar" />
 	<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.launch.LaunchActivity}" drawable="duckduckgo_alt" />
 	<item component="ComponentInfo{com.mcprohosting.beam/com.mcprohosting.beam.SplashActivity}" drawable="mixer" />
-	<item component="ComponentInfo{com.robinhood.android/com.robinhood.android.activity.WelcomeActivity}" drawable="robinhood_alt" />
 	<item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok_lite"/>
 	<item component="ComponentInfo{com.gears.today/com.appyet.activity.MainActivity}" drawable="gsm_news" />
 	<item component="ComponentInfo{net.omobio.airtelsc/net.omobio.airtelsc.ui.splash.SplashActivity}" drawable="my_airtel"/>
-	<item component="ComponentInfo{com.alltrails.alltrails/com.alltrails.alltrails.StartActivity}" drawable="all__trails" />
 	<item component="ComponentInfo{com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity}" drawable="crunchyroll"/>
 </resources>

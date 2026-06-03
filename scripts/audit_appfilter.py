@@ -152,7 +152,7 @@ def run(dry_run=False, lawnicons_url=LAWNICONS_URL):
     print(f"  Removed: {stats['broken']} broken (drawable missing)")
     print(f"  Removed: {stats['duped']} duplicates")
     print(f"  Added:   {stats['added']} new from Lawnicons")
-    print(f"  Wishlist: {len(wishlist)} entries saved")
+    print(f"  Wishlist: {len(wishlist)} removed this run (merged into existing backlog)")
 
     if dry_run:
         print("\n(dry run — no files written)")
@@ -161,16 +161,36 @@ def run(dry_run=False, lawnicons_url=LAWNICONS_URL):
     APPFILTER.write_text("".join(kept))
     print(f"\nWrote {APPFILTER}")
 
+    # Merge this run's removals into the existing wishlist instead of
+    # overwriting it, so the accumulated backlog survives runs that remove
+    # nothing. Drop entries whose icon now exists (the wish was fulfilled),
+    # and dedup by component.
+    merged = []
+    seen_wishes = set()
+    existing = WISHLIST.read_text().splitlines(keepends=True) if WISHLIST.exists() else []
+    for line in existing + wishlist:
+        parsed = parse_entry(line)
+        if parsed is None:
+            continue
+        pkg, act, drw = parsed
+        if drw in icons:
+            continue  # icon now exists — no longer a wish
+        key = f"{pkg}/{act}"
+        if key in seen_wishes:
+            continue
+        seen_wishes.add(key)
+        merged.append(line)
+
     wishlist_content = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         "<!-- Entries removed during audit: drawable PNGs don't exist yet.\n"
         "     Design these icons to re-enable the mappings. -->\n"
         "<resources>\n"
     )
-    wishlist_content += "".join(wishlist)
+    wishlist_content += "".join(merged)
     wishlist_content += "</resources>\n"
     WISHLIST.write_text(wishlist_content)
-    print(f"Wrote {WISHLIST}")
+    print(f"Wrote {WISHLIST} ({len(merged)} entries, {len(wishlist)} new this run)")
 
 
 if __name__ == "__main__":
