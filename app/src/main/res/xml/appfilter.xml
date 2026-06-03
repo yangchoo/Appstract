@@ -7761,4 +7761,16 @@
 	<item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.view.activity.MainActivity}" drawable="weather"/>
 	<item component="ComponentInfo{yqtrack.app/yqtrack.app.MainActivity}" drawable="seventeentrack"/>
 
+
+	<!-- New activity mappings from Lawnicons -->
+	<item component="ComponentInfo{com.acorns.android/com.acorns.android.splash.SplashActivity}" drawable="acorns"/>
+	<item component="ComponentInfo{com.dashlane/com.dashlane.DashlaneNormalIconActivity}" drawable="dashlane"/>
+	<item component="ComponentInfo{com.fitbit.FitbitMobile/com.fitbit.FitbitBrandedAlias}" drawable="fitbit"/>
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.GrwmSaleIconAlias}" drawable="flipkart"/>
+	<item component="ComponentInfo{com.ivoox.app/com.ivoox.app.ui.login.activity.LoginMainActivity}" drawable="ivoox"/>
+	<item component="ComponentInfo{com.nu.production/br.com.nubank.app.LegacyUvSplashActivity}" drawable="nubank"/>
+	<item component="ComponentInfo{com.opera.browser/com.opera.Launcher2}" drawable="opera"/>
+	<item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.prs.ima.MainActivity}" drawable="rail_connect"/>
+	<item component="ComponentInfo{no.mobitroll.kahoot.android/no.mobitroll.kahoot.android.RewardOrange}" drawable="kahoot"/>
+
 </resources>
