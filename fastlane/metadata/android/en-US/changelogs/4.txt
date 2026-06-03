@@ -1,0 +1,1 @@
+Switched to a stable signing key to support reproducible builds on F-Droid.

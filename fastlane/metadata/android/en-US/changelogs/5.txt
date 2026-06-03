@@ -1,0 +1,1 @@
+Now available on F-Droid as a reproducible build.
