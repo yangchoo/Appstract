@@ -37,7 +37,7 @@ jobs:
               '''
               As a reminder, files can only be comprised of lowercase letters, numbers, and underscores.
               They may not start with a number, must end with .png or .svg, and cannot have any other characters.
-              Refer to https://github.com/mirrorkeydev/Appstract/blob/master/CONTRIBUTING.md for help.
+              Refer to https://github.com/yangchoo/Appstract/blob/master/CONTRIBUTING.md for help.
               '''
               )
             sys.exit(1)

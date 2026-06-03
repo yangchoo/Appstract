@@ -45,7 +45,7 @@ jobs:
                 '''
                 As a reminder, there need to be exactly three files for each icon, one .png in 'appstract-dark',
                 one .png in 'appstract-light', and one .svg in 'svgs'.
-                Refer to https://github.com/mirrorkeydev/Appstract/blob/master/CONTRIBUTING.md for help.
+                Refer to https://github.com/yangchoo/Appstract/blob/master/CONTRIBUTING.md for help.
                 '''
                 )
               bad = True
