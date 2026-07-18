@@ -349,12 +349,6 @@
 	<item component="ComponentInfo{photography.blackgallery.android/photography.blackgallery.android.activity.SplashActivity}" drawable="gallery"/>
 	<item component="ComponentInfo{com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}" drawable="gallery"/>
 
-	<!---app_drawer_three-->
-	<item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="app_drawer_three" />
-
-	<!---app_drawer_eight-->
-	<item component=":LAUNCHER_ACTION_APP_DRAWER_NIGHT" drawable="app_drawer_eight" />
-
 	<!---phone-->
 	<item component=":PHONE" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.Contacts}" drawable="phone"/>
@@ -1992,7 +1986,6 @@
 	<!---nest-->
 
 	<!---kicker-->
-	<item component="ComponentInfo{com.netbiscuits.kicker/com.tickaroo.kickerxml.ui.home.HomeActivity" drawable="kicker" />
 
 	<!---netflix-->
 	<item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="netflix" />
@@ -3148,6 +3141,7 @@
 	<!---belfius_mobile-->
 
 	<!---viking_app-->
+	<item component="ComponentInfo{com.vikingco.vikingapp/com.vikingco.vikingapp.activities.MainActivity}" drawable="vikingnation" />
 
 	<!---fire_emblem_heroes-->
 
@@ -3508,7 +3502,6 @@
 	<!---handy-->
 
 	<!---qpython-->
-	<item component="ComponentInfo{org.qpython.qpy}" drawable="qpython" />
 
 	<!---android_wear_center-->
 
@@ -3946,7 +3939,6 @@
 	<!---capitec-->
 
 	<!---mathway-->
-	<item component="ComponentInfo{com.bagatrix.mathway.*.SplashActivity}" drawable="mathway" />
 
 	<!---wish-->
 
@@ -4269,7 +4261,6 @@
 	<!---wayward_souls-->
 
 	<!---fender_tuner-->
-	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.LandingActivity" drawable="fender_tuner" />
 
 	<!---heise-->
 
@@ -4300,10 +4291,8 @@
 	<!---jobboerse-->
 
 	<!---offlinesurvivalmanual-->
-	<item component="ComponentInfo{ComponentInfo{org.ligi.survivalmanual/org.ligi.survivalmanual.ui.MainActivity}}" drawable="offlinesurvivalmanual"/>
 
 	<!---simpledilbert-->
-	<item component="ComponentInfo{ComponentInfo{com.mareksebera.simpledilbert/com.mareksebera.simpledilbert.core.DilbertFragmentActivity}}" drawable="simpledilbert"/>
 
 	<!---flush-->
 
@@ -4832,7 +4821,6 @@
 	<item component="ComponentInfo{com.supercell.clashofclans/com.supercell.titan.GameApp}" drawable="clash_of_clans"/>
 
 	<!--McDonald's-->
-	<item component="ComponentInfo{c2}" drawable="mcdonald's"/>
 	<item component="ComponentInfo{com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity.Red}" drawable="mcdonalds"/>
 	<item component="ComponentInfo{pt.mcdonalds/pt.mcdonalds.android.ui.intro.splash.SplashActivity}" drawable="mcdonalds"/>
 
@@ -6430,7 +6418,7 @@
 	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="gmail"/>
 	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode}" drawable="gmail"/>
 	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velour.DynamicActivityTrampoline}" drawable="google"/>
-	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.launcher.RobinEntryPointActivity}" drawable="google"/>
+	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.launcher.RobinEntryPointActivity}" drawable="gemini"/>
 	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.soundsearch.shortcut.AddShortcutActivity}" drawable="google"/>
 	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.soundsearch.shortcut.AliasAddShortcutActivity}" drawable="google"/>
 	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.weather.entrypoints.appicon.WeatherAppIconActivity}" drawable="google"/>
@@ -7772,5 +7760,18 @@
 	<item component="ComponentInfo{com.opera.browser/com.opera.Launcher2}" drawable="opera"/>
 	<item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.prs.ima.MainActivity}" drawable="rail_connect"/>
 	<item component="ComponentInfo{no.mobitroll.kahoot.android/no.mobitroll.kahoot.android.RewardOrange}" drawable="kahoot"/>
+
+
+	<!-- New activity mappings from Lawnicons -->
+	<item component="ComponentInfo{cn.nubia.soundrecorder.preset/cn.zte.recorder.RecordHomeActivity}" drawable="sound_recorder"/>
+	<item component="ComponentInfo{com.duolingo/com.duolingo.app.SeasonalLauncher2}" drawable="duolingo"/>
+	<item component="ComponentInfo{com.duolingo/com.duolingo.app.SeasonalLauncher3}" drawable="duolingo"/>
+	<item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncher2}" drawable="duolingo"/>
+	<item component="ComponentInfo{com.grindrapp.android/com.grindrapp.android.HomeActivityChatRed}" drawable="grindr"/>
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus2Alias}" drawable="snapchat"/>
+	<item component="ComponentInfo{se.swedbank.mobil/se.swedbank.mobilbank.feature.splashscreen.SplashActivity}" drawable="bank"/>
+
+	<!---gemini-->
+	<item component="ComponentInfo{com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity}" drawable="gemini"/>
 
 </resources>

@@ -894,7 +894,6 @@
 	<item component="ComponentInfo{com.wakdev.nfctasks/com.wakdev.nfctasks.MainActivity}" drawable="nfc_tasks" />
 	<item component="ComponentInfo{com.motorola.contextual.smartrules2/com.motorola.contextaware.ui.GalleryActivity}" drawable="moto_assist" />
 	<item component="ComponentInfo{be.belfius.directmobile.android/be.belfius.directmobile.android.presenter.SplashActivity}" drawable="belfius_mobile" />
-	<item component="ComponentInfo{com.vikingco.vikingapp/com.vikingco.vikingapp.activities.MainActivity}" drawable="viking_app" />
 	<item component="ComponentInfo{com.nintendo.zaba/org.cocos2dx.cpp.AppActivity}" drawable="fire_emblem_heroes" />
 	<item component="ComponentInfo{com.sofascore.results/com.sofascore.results.activity.StartActivity}" drawable="sofascore" />
 	<item component="ComponentInfo{com.endomondo.android/com.endomondo.android.EndoSplash}" drawable="endomondo" />
@@ -1481,4 +1480,10 @@
 	<item component="ComponentInfo{com.gears.today/com.appyet.activity.MainActivity}" drawable="gsm_news" />
 	<item component="ComponentInfo{net.omobio.airtelsc/net.omobio.airtelsc.ui.splash.SplashActivity}" drawable="my_airtel"/>
 	<item component="ComponentInfo{com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity}" drawable="crunchyroll"/>
+	<item component="ComponentInfo{com.netbiscuits.kicker/com.tickaroo.kickerxml.ui.home.HomeActivity}" drawable="kicker" />
+	<item component="ComponentInfo{org.qpython.qpy/org.qpython.qpy.main.activity.SplashActivity}" drawable="qpython" />
+	<item component="ComponentInfo{com.bagatrix.mathway.android/com.bagatrix.mathway.android.SplashActivity}" drawable="mathway" />
+	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.LandingActivity}" drawable="fender_tuner" />
+	<item component="ComponentInfo{org.ligi.survivalmanual/org.ligi.survivalmanual.ui.MainActivity}" drawable="offlinesurvivalmanual"/>
+	<item component="ComponentInfo{com.mareksebera.simpledilbert/com.mareksebera.simpledilbert.core.DilbertFragmentActivity}" drawable="simpledilbert"/>
 </resources>

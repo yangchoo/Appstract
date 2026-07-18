@@ -219,6 +219,7 @@ https://github.com/mirrorkeydev/PythonScripts/blob/master/Appstract/drawablexml/
 	<item drawable ="gallery" />
 	<item drawable ="gamepad_tester" />
 	<item drawable ="game_space" />
+	<item drawable ="gemini" />
 	<item drawable ="generic_bank_eu" />
 	<item drawable ="generic_bank_uk" />
 	<item drawable ="generic_battery_empty" />
@@ -570,6 +571,7 @@ https://github.com/mirrorkeydev/PythonScripts/blob/master/Appstract/drawablexml/
 	<item drawable ="vudu" />
 	<item drawable ="vy_nsb" />
 	<item drawable ="walmart" />
+	<item drawable ="waze" />
 	<item drawable ="weather" />
 	<item drawable ="wellsfargo" />
 	<item drawable ="whatsapp" />
