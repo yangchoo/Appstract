@@ -1,0 +1,1 @@
+New Google Gemini icon; Viking Nation dark icon restored; new activity mappings from Lawnicons audit; appfilter cleanup.
