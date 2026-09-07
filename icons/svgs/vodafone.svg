@@ -1,130 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="192"
-   height="192"
-   viewBox="0 0 192.00001 192.00001"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="C:\Users\Melanie\Documents\GitHub\Appstract\app\src\main\res\drawable-nodpi\vodafone.png"
-   inkscape:export-xdpi="95.800003"
-   inkscape:export-ydpi="95.800003"
-   sodipodi:docname="vodafone.svg">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="-43.948155"
-     inkscape:cy="124.62065"
-     inkscape:document-units="px"
-     inkscape:current-layer="g1507"
-     showgrid="false"
-     units="px"
-     showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:lockguides="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4136" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-860.36222)"
-     style="display:none"
-     sodipodi:insensitive="true">
-    <g
-       id="g5381"
-       transform="translate(0,860.36222)">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#666666;stroke-width:0.10000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect4140"
-         width="183.86781"
-         height="183.86781"
-         x="4.0660992"
-         y="4.0660992" />
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2">
-    <g
-       id="g5415"
-       transform="translate(0.57921141,3.9295562)">
-      <g
-         id="g6140"
-         transform="matrix(1.1530717,0,0,1.1530717,-14.606222,-16.938387)">
-        <g
-           id="g6172"
-           transform="matrix(1.0887817,0,0,1.0887817,-8.4716205,-8.3932267)">
-          <g
-             id="g6179"
-             transform="matrix(0.94988002,0,0,0.94988002,4.7824882,4.7382316)">
-            <g
-               id="g1507"
-               transform="matrix(1.171249,0,0,1.171249,-15.524545,-12.445202)"
-               style="stroke-width:0.85378939">
-              <circle
-                 style="fill:#fa6464;fill-opacity:1;stroke-width:0.85378939"
-                 id="path1754"
-                 cx="94.723953"
-                 cy="91.340935"
-                 r="56.828815" />
-              <path
-                 style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.29572153"
-                 d="m 65.721924,95.303025 c 15.554468,0.507085 28.456338,11.257365 28.456338,27.172635 0,15.91526 -12.90187,28.81713 -28.817137,28.81713 -15.915264,0 -28.817134,-12.90187 -28.903805,-28.87675 -0.08667,-28.159141 22.692495,-50.938308 50.792022,-50.938307 -11.69,-10e-7 -21.16662,11.628204 -21.527418,23.825292 z"
-                 id="path1758-5"
-                 inkscape:connector-curvature="0"
-                 sodipodi:nodetypes="cssccc" />
-              <circle
-                 style="fill:#ff5555;fill-opacity:1;stroke-width:0.85378939"
-                 id="path1754-6"
-                 cx="25.486149"
-                 cy="-39.139122"
-                 r="56.828812" />
-              <path
-                 style="fill:none;fill-opacity:1;stroke:#1a1a1a;stroke-width:4.29572153"
-                 d="m 25.846946,-66.311756 c 15.554467,0.507085 28.456342,11.257368 28.456342,27.172633 0,15.915266 -12.901875,28.817139 -28.817141,28.817139 -15.9152636,0 -28.8171336,-12.901873 -28.9038046,-28.876755 -0.08667,-28.159142 22.6924946,-50.938309 50.7920256,-50.938308 -11.690005,-10e-7 -21.166625,11.628204 -21.527422,23.825291 z"
-                 id="path1758-5-4"
-                 inkscape:connector-curvature="0"
-                 sodipodi:nodetypes="cssccc" />
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Grafika (https://www.grafika.cc/) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="192" viewBox="0 0 192 192" preserveAspectRatio="xMidYMid meet" id="vodafone.svg">
+	<g id="layer2" transform="matrix(0.999999940395355, 0, 0, 0.999999940395355, 0, 0)">
+		<g id="g5415">
+			<g id="g6140" transform="matrix(1.153071641922, 0, 0, 1.153071641922, -14.0270107388496, -13.0088307857513)">
+				<g id="g6172" transform="matrix(1.08878171443939, 0, 0, 1.08878171443939, -8.47162055969238, -8.39322662353516)">
+					<g id="g6179" transform="matrix(0.949880003929138, 0, 0, 0.949880003929138, 4.78248834609985, 4.73823165893555)">
+						<g id="g1507" transform="matrix(1.17124903202057, 0, 0, 1.17124903202057, -15.5245447158813, -12.4452018737793)">
+							<ellipse cx="94.72" cy="91.34" rx="56.83" ry="56.83" id="path1754" style="fill:#FA6464;" />
+							<path d="M65.72 95.3 C81.28 95.81 94.18 106.56 94.18 122.48 C94.18 138.39 81.28 151.29 65.36 151.29 C49.45 151.29 36.54 138.39 36.46 122.42 C36.37 94.26 59.15 71.48 87.25 71.48 C75.56 71.48 66.08 83.11 65.72 95.3 L65.72 95.3 Z" id="path1758-5" style="fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-width:4.3;" />
+							<ellipse cx="25.49" cy="-39.14" rx="56.83" ry="56.83" id="path1754-6" style="fill:#FF5555;" />
+							<path d="M25.85 -66.31 C41.4 -65.8 54.3 -55.05 54.3 -39.14 C54.3 -23.22 41.4 -10.32 25.49 -10.32 C9.57 -10.32 -3.33 -23.22 -3.42 -39.2 C-3.5 -67.36 19.27 -90.14 47.37 -90.14 C35.68 -90.14 26.21 -78.51 25.85 -66.31 L25.85 -66.31 Z" id="path1758-5-4" style="fill:none;stroke:#1A1A1A;stroke-linecap:butt;stroke-linejoin:round;stroke-width:4.3;" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
 </svg>
